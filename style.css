@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.main{
+    width: auto;
+    height: 100vh;
+    background-color: rgb(159, 147, 39);
+    border: 3px solid color gold;
+    text-align: center;
+}
+.avatar img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(255, 251, 0);
+    border-radius: 50%;
+ }
+ h2{
+    color: azure;
+ }
+ b{
+    color: rgb(251, 255, 0);
+    font-weight: 900;
+ }
+ .link{
+    display: block;
+    border: 1px solid rgb(255, 251, 0);
+    height: 40px;
+    width: 400px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .link:hover{
+    transition: 400ms;
+    background-color: rgb(255, 242, 0);
+    transform: translateY(-10px);
+ }
